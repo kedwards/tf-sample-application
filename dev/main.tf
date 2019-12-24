@@ -23,7 +23,7 @@ locals {
   ami              = "ami-04b9e92b5572fa0d1" # replace with lookup from packer build.
   app_port         = "8080"
   name             = "keca"
-  provisioning_key = "logikcull-test"
+  provisioning_key = "aws-provisioning-key-name"
   tags = {
     Environment = "dev"
     Owner       = "Kevin Edwards"
